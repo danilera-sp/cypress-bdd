@@ -7,16 +7,30 @@ A proposta é aplicar **Cypress** em conjunto com **BDD (Behavior Driven Develop
 ---
 
 ## 📂 Estrutura do Projeto
-📦 cypress-bdd-treinamento
-┣ 📂 cypress
-┃ ┣ 📂 e2e
-┃ ┣ 📂 fixtures
-┃ ┣ 📂 support
-┃ ┗ 📂 features # arquivos .feature em Gherkin
-┣ 📂 reports # relatórios de execução (em breve)
-┣ 📜 cypress.config.js
-┣ 📜 package.json
-┗ 📜 README.md
+## 📁 Estrutura do Projeto
+
+```plaintext
+CYPRESS-BDD/
+├── cypress/
+│   ├── e2e/
+│   │   └── features/          # Arquivos .feature do Cucumber
+│   │       ├── cad_user.feature
+│   │       └── login.feature
+│   ├── support/
+│   │   ├── pages/             # Page Objects
+│   │   │   ├── home_page.js
+│   │   │   └── login_page.js
+│   │   └── step_definitions/  # Definições dos steps
+│   │       └── login_steps.js
+│   ├── commands.js            # Comandos customizados do Cypress
+│   └── e2e.js                 # Configuração de execução de testes
+├── node_modules/              # Dependências do projeto
+├── cypress.config.js          # Configuração do Cypress
+├── package.json               # Dependências e scripts
+├── package-lock.json          # Controle de versões das dependências
+├── .gitignore                 # Arquivos ignorados pelo git
+└── README.md                  # Documentação do projeto
+
 
 
 

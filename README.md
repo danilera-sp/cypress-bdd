@@ -6,7 +6,6 @@ A proposta é aplicar **Cypress** em conjunto com **BDD (Behavior Driven Develop
 
 ---
 
-## 📂 Estrutura do Projeto
 ## 📁 Estrutura do Projeto
 
 ```plaintext
@@ -30,7 +29,7 @@ CYPRESS-BDD/
 ├── package-lock.json          # Controle de versões das dependências
 ├── .gitignore                 # Arquivos ignorados pelo git
 └── README.md                  # Documentação do projeto
-
+```
 
 
 

@@ -68,9 +68,3 @@ Exercitar a escrita de cenários com Gherkin.
 Consolidar boas práticas de organização de testes.
 Evoluir gradualmente, adicionando relatórios, testes de API, entre outros. 
 
-📈 Próximos Passos
-
- Adicionar cenários básicos de login/logout
- Implementar geração de relatórios (Allure ou Mochawesome)
- Incluir testes de API
- Configurar pipeline de CI/CD

@@ -1,9 +1,10 @@
 /// <reference types="cypress" />
+import 'cypress-mochawesome-reporter/cucumberSupport';
 
 import {Given, When, Then} from"@badeball/cypress-cucumber-preprocessor"
 import home_page from "../pages/home_page"
 import cadUser_page from "../pages/cadUser_page"
-import login_page from "../pages/login_page"
+
 
 
 

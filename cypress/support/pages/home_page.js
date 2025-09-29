@@ -8,5 +8,13 @@ export default{
 
         cy.get(".fa-user")
             .click()
+    },
+
+    acessaCadUser(){
+        cy.visit("/")
+           .get("#top_header")
+
+        cy.get(".fa-lock")
+            .click()
     }
 }

@@ -1,4 +1,3 @@
-# 1 - Crio o cenário 
 Feature: Login
 
 

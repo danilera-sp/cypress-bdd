@@ -1,5 +1,6 @@
 //2 - transformo gherkin em metodo 
 /// <reference types="cypress" />
+import 'cypress-mochawesome-reporter/cucumberSupport';
 
 import {Given, When, Then} from"@badeball/cypress-cucumber-preprocessor"
 import home_page from "../pages/home_page"
